@@ -1,3 +1,5 @@
 language: java
-script: ant -f freenet-ext/build.xml
+script:
+  - mvn -version
+  - ant -f freenet-ext/build.xml
 
